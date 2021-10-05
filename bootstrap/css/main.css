@@ -1,0 +1,138 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.card {
+    height: 230px;
+    border: 1px solid red;
+    border-radius: 12px;
+    display: flex;
+    padding: 30px;
+    box-sizing: border-box;
+    flex-direction: row;
+}
+
+.left-side {
+    position: relative;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50px;
+    height: 50px;
+    background: rgba(255, 255, 255, 0.249235);
+    box-shadow: 0px 7px 40px rgba(238, 39, 68, 0.355086);
+    backdrop-filter: blur(8.15485px);
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.right-side {
+    padding-left: 40px;
+}
+
+.title {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+}
+
+.body {
+    margin-top: 10px;
+    font-size: 14px;
+    line-height: 17px;
+    color: #222124;
+    opacity: 0.4;
+    padding-right: 47px;
+}
+
+.footer {
+    margin-top: 13px;
+}
+
+.price {
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 29px;
+    color: #222124;
+}
+
+.add {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: #F1B301;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+@media (min-width: 150px) and (max-width: 410px){
+
+}
+@media (min-width: 410px) and (max-width: 576px) {
+    .card{
+        padding: 20px;
+    }
+    .title {
+        font-size: 18px;
+        line-height: 22px;
+    }
+    .body{
+        font-size: 12px;
+        line-height: 15px;
+        padding-right: 0;
+    }
+    .right-side{
+        padding-left: 28px;
+    }
+    .price{
+        font-size: 18px;
+        line-height: 22px;
+    }
+    .add{
+        width: 35px;
+        height: 35px;
+    }
+    .add img{
+        width: 12px;
+    }
+}
+
+
+@media (min-width: 992px) and (max-width: 1200px) {
+    .card{
+        padding: 20px;
+    }
+    .title {
+        font-size: 18px;
+        line-height: 22px;
+    }
+    .body{
+        font-size: 12px;
+        line-height: 15px;
+        padding-right: 0;
+    }
+    .right-side{
+        padding-left: 28px;
+    }
+    .price{
+        font-size: 18px;
+        line-height: 22px;
+    }
+    .add{
+        width: 35px;
+        height: 35px;
+    }
+    .add img{
+        width: 12px;
+    }
+}
+
+
